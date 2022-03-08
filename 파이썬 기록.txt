@@ -1,0 +1,36 @@
+오후 3:42 2022-03-08
+
+출처: 
+https://www.youtube.com/watch?v=kWiCuklohdY&t=16s
+
+목록
+# 1. 설치
+https://www.python.org/ 
+에 들어가서 파이썬 설치.
+	- Add python (버젼) to Path 체크
+	- Customize installation
+	- 경로단축 C:\Python
+	- 설치
+	=======
+
+	- VSCODE 설치
+	
+
+# 2. 사용
+  ## A0308 
+  	- python 파일의 확장자는 .py이다. 
+	- C 와 java와 달리 ;은 붙지않는다.
+  
+	- print 로 출력시 자동 \n
+	- 정수,음수,실수, 연산식 출력.
+
+	- 문자형 자료
+	 '' 또는 "" 으로 표현할 수 있다.
+	 여러번 사용시 문자뒤에 *횟수를 붙여서 사용.
+
+	- Boolean형
+	 print( 5 > 10 )
+		false로 자동으로 표시된다.
+	 
+	 print(not True)
+	 ture가 아니다를 표현할 수있다.
