@@ -3,6 +3,8 @@
 출처: 
 https://www.youtube.com/watch?v=kWiCuklohdY&t=16s
 
+
+
 목록
 # 1. 설치
 https://www.python.org/ 
@@ -42,3 +44,6 @@ https://www.python.org/
 
  ## 
    - 주석은 #문단 과 '''로 문장을 주석화 시킬 수 있다.
+
+# 3. 코드제
+jeongsam3659 / !Ac...

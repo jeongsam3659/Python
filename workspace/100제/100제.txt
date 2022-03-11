@@ -1,0 +1,60 @@
+#1
+Hello 출력
+--
+print("Hello")
+
+#2
+Hello World 출력
+--
+print("Hello World")
+
+#3
+Hello 
+World 
+출력
+--
+print("Hello\nWorld")
+
+#4
+'Hello' 출력
+print("'Hello'")
+
+#5
+"Hello World" 출력
+--
+print('"Hello World"')
+
+#6
+"!@#$%^&*()' 출력
+--
+a = "!@#$%^&*()'"
+print('\"'+a)
+
+#7
+"C:\Download\'hello'.py" 출력
+--
+a = "C:\Download"
+filename = "'hello'.py"
+print('"'+a+"\\"+filename+'"');
+
+#8
+print("Hello\nWorld") 출력
+--
+partA = "Hello\\nWorld"
+partB = 'print("'+partA+'")'
+
+print(partB)
+
+#9
+입력된 문자를 그대로 출력한다.
+a
+---
+in_a = input()
+print(in_a)
+
+#10
+정수 1개가 입력된 수를 정수로 변환하여 출력한다.
+---
+in_int = input()
+number = int(in_int)
+print(number)
