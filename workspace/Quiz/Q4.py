@@ -22,3 +22,19 @@ shuffle(lst)
 print(lst)
 print(sample(lst,1))
 '''
+
+from random import *
+# 1
+users = range(1,21) # 1~20까지 숫자 생성
+users = list(users)
+
+# 2
+shuffle(users)
+print(users)
+winnners = sample(users, 4) # 4명 중에서 1명은 치킨, 3명은 커피
+
+#
+print("-- 당첨자 발표 --")
+print("치킨 당첨자 : {0}".format(winnners[0]))
+print("커피 당첨자 : {0}".format(winnners[1:]))
+print("-- 축하합니다. --")
