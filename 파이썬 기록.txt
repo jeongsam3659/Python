@@ -243,7 +243,52 @@ https://www.python.org/
 		 > 생성자.
 			객체가 생성시 자동으로 생성.
 
+		- self
+		 자기자신을 의미. java의 this와 비슷한 개념.
+
 		- 멤버변수
+		 > 클래스에 선언된 속성.
+		 > 변수.멤버변수
+		
+		- 메소드
+			def __init__ 후에 선언된 것들
+
+			def 메소드(self, A#, B)
+			self.A = A#
+			>> A#에서 받은 값을 밑에 A#에 받고 그걸 self.A에 대입.
+
+		- 상속
+		EX)
+			class Unit:
+    			def __init__(self, name, hp):
+        			self.name = name
+        			self.hp = hp
+
+			class AttackUnit(Unit):
+    			def __init__(self, name, hp, demage):
+        			Unit.__init__(self, name, hp)
+       				 self.demage = demage
+
+		Unit에서 설정 
+				
+
+		- 다중상속
+
+		- 메소드 오버라이드
+
+		- pass
+			정의해야될것을 일단 넘기는 행위.
+
+		- super
+			상속받은 
+			ex)
+			 Unit.__init__(self, name, hp, 0) 을
+		  >> super().__init__(name, hp, 0) 으로 정의할 수 있다.
+		  	이때 self는 사용하지 않는다. 	
+		  
+		  >> 다중상속시 super 먼저 받는 멤버변수만 해당되어
+		  다른 멤버변수는 받지 못한다.
+		  다중때는 사용x
 
 
 # 3. 코드제
